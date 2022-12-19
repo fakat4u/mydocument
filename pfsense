@@ -1,0 +1,12 @@
+How to download pfsense from the scratch from the open source platform.
+goto www.pfsense.org/download and select AMD64Bit  >>>> DVD.ISO >>>> USA default >>> click to download into bootable USB.
+From the hardware part we need extra LAN card for WAN connection and 4GB RAM and 100GB HardDrive processor 1.3GHZ
+Insert USB to PC and run from USB pfsense ISO file
+Installation start with normally and select step step to proceed final stage e.g. >> accept >>> select install pfsense  >>> select Boot-Efi >> GPT partition >>>  select and accept without shell and reboot system.
+After rebooting system select interface s per card inserted donst configure vlan abd dhcp now setup later.
+You need to have extra router and system to ping pong the pfsense machine
+Once configure lan and able to login http://192.168.1.1/24 and type user Id : admin and password :- pfsense
+Configure firewall as per your requirement if you have old backup.
+Just restore .xml file to current pfsense and reboot 
+Your Old setting and pfsense firewall ready to use.
+Thank You!!!!!!!!!!!!
